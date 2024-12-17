@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Επικοινωνία</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Πίτες του Πίτου</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="store.html">Κατάστημα</a></li>
+                    <li><a href="pies.html">Πίτες</a></li>
+                    <li><a href="contact.html">Επικοινωνία</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <h2>Επικοινωνία</h2>
+        <article>
+        <form action="/sendData" method="post">
+            <label for="txtname">Ονοματεπώνυμο:</label>
+            <input type="text" id="txtname" name="firstlastname" minlength="3" maxlength="40" required> (*)<br>
+            <label for="txtemail">E-mail:</label>
+            <input type="email" id="txtemail" name="email" maxlength="40" required> (*)<br>
+            <label for="telephone">Τηλέφωνο:</label>
+            <input type="tel" id="telephone" name="telephone"><br>
+            <label for="sxolia">Μήνυμα:</label>
+            <textarea id="sxolia" rows="6" cols="40" name="sxolia" required></textarea> (*)<br>
+            Τα πεδία με (*) είναι υποχρεωτικά<br>
+            <input type="submit" value="Υποβολή">
+            <input type="reset" value="Καθαρισμός">
+        </form>
+    </article>
+    </main>
+    <aside>
+        <h2>Προσφορές</h2>
+        <p>Giveaway</p>
+        <p>Στις 10 η 1 δώρο</p>
+    </aside>
+    </body>
+    <footer>
+        <p>&copy; Οι Πίτες του Πίτου 2023</p>
+    </footer>
+</html>
